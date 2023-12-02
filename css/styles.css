@@ -6,6 +6,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 margin: 0;
 padding: 0;
 }
+
  img {
   display: block;
  }
@@ -89,9 +90,6 @@ flex-shrink: 0;
   gap: 76px;
 }
 
-/* .nav-menu {
-  padding-top: 24px;
-} */
 
 .navtext {
   color: #2e2f42;
@@ -105,15 +103,14 @@ flex-shrink: 0;
 .list {
   list-style: none;
   /* display: inline-flex; */
-
 }
+
 .nav-menu .link{
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
     color: #2e2f42;
-
 }
 
 
@@ -121,7 +118,8 @@ flex-shrink: 0;
   align-items: flex-start;
   display: inline-flex;
   position: relative;
-  gap: 40px;}
+  gap: 40px;
+}
 
 .address-menu {
   font-weight: 400;
@@ -130,7 +128,6 @@ flex-shrink: 0;
   letter-spacing: 0.02em;
     color: #434455;
     display: flex;
-
 }
 
 .list .link:hover {
@@ -199,11 +196,11 @@ h1 {
   display: block;
   border-style: none;
   border-radius: 4px;
-    cursor: pointer;
-margin-top: 48px;
-    margin-bottom: auto;
-    margin-right: auto;
-    margin-left: auto;
+  cursor: pointer;
+  margin-top: 48px;
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 button:hover,
@@ -231,10 +228,9 @@ button:focus {
 }
 
 .section-2-list {
- align-items: flex-start;
-  display: inline-flex;
-  position: relative;
-  gap: 40px;}
+display: flex;
+  gap: 40px;
+}
 
 
 .p-title {
@@ -273,7 +269,7 @@ p {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-margin-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .images-con .list {

@@ -214,6 +214,16 @@ button:focus {
 }
 
 /* second section */
+.second-section {
+  padding: 120px 0 120px
+}
+
+.section-2-con  {
+  display: flex;
+  position: relative;
+  gap: 24px;
+}
+
 h3 {
   font-weight: 500;
   font-size: 20px;

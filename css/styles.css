@@ -2,11 +2,12 @@
   box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6, p, ul {
+/* h1, h2, h3, h4, h5, h6, p, ul {
 margin: 0;
 padding: 0;
-}
+} */
 
+}
  img {
   display: block;
  }
@@ -45,7 +46,7 @@ body {
 
 .main-header {
 background: var(--WHITE: #FFF);
-padding: 24px 0 24px; 
+padding: 24px 0 24px;
 border-bottom: 1px solid #e7e9fc;
 }
 
@@ -162,13 +163,13 @@ address {
 }
 
 .footer-logo {
-  color: #434455; 
+  color: #434455;
 }
 
 /* first section */
 .first-section {
   background-color: #2e2f42;
-  padding: 188px 0 188px 
+  padding: 188px 0 188px
 }
 
 h1 {
@@ -181,7 +182,7 @@ h1 {
 }
 .first-header h1 {
   max-width: 496px;
-} 
+}
 
 .order-button {
   background-color: #4d5ae5;
@@ -211,7 +212,7 @@ button:focus {
 /* second section */
 
 .second-section {
-  padding: 120px 0 120px;
+  padding: 120px 0;
 }
 
 .visually-hidden {
@@ -229,7 +230,7 @@ button:focus {
 
 .section-2-list {
 display: flex;
-  gap: 40px;
+  gap: 24px;
 }
 
 
@@ -238,7 +239,7 @@ display: flex;
 }
 
  .p-con {
-  flex-basis: calc((100% - 72px) / 4;
+flex-basis: calc((100% - 72px) / 4);
  }
 
 h3 {
@@ -247,6 +248,8 @@ h3 {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+   margin-bottom: 8px;
+  text-align: left;
 }
 
 p {
@@ -254,15 +257,11 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  text-align: left;
 }
 
 /* third section */
-
-.third-section {
-  padding-bottom: 120px;
-}
-
-.third-title {
+.third-title, .fourth-title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -272,25 +271,38 @@ p {
   margin-bottom: 72px;
 }
 
-.images-con .list {
+.third-section {
+  padding-bottom: 120px;
+}
+
+.images-con {
   display: flex;
   gap: 24px;
 }
 
-.image-card-3 {
-  flex-basis: calc((100% - 48px) / 3);
-}
-
+/* .image-card {
+flex-basis: calc((100% - 48px) / 3);
+} */
 
 /* fourth section */
 
 .fourth-section {
-  background-color: #f4f4fd;
+background-color: #f4f4fd;
+padding: 120px 0;
+}
 }
 
-.team-list {
+.team-con {
   background-color: #ffffff;
+  flex-basis: calc((100% - 72px) / 4);
+  border-radius: 0 0 4px 4px;
 }
+
+.team-con {
+  display: flex;
+  gap: 24px;
+}
+
 /* footer */
 .footer-section {
   background-color: #2e2f42;

@@ -172,17 +172,29 @@ address {
   padding: 188px 0 188px
 }
 
-h1 {
+/* h1 {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff; */
+
+/* }
+.first-header h1 {
+  max-width: 496px;
+} */
+
+
+.first-header {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-
-}
-.first-header h1 {
   max-width: 496px;
+  margin: 0 auto 48px;
 }
+
 
 .order-button {
   background-color: #4d5ae5;
@@ -332,7 +344,7 @@ padding: 120px 0;
   max-width: 264px;
 }
 
-.footer-section .link {
+.footer-con .link {
    display: inline-block;
   margin-bottom: 16px;
 }

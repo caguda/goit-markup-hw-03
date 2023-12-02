@@ -24,9 +24,9 @@ body {
   background-color: #ffffff;
 }
 
-header {
+/* header {
   border-bottom: 1px solid #e7e9fc;
-}
+} */
 
 .container {
   width: 1158px;
@@ -35,13 +35,16 @@ header {
 
 .nav-con {
   display: inline-flex;
-  gap: 76px;
+  /* gap: 76px; */
+  margin-right: 76px;
 }
 
 .main-header {
 border-bottom: 1px solid var(--CORNFLOWER: #E7E9FC);
 background: var(--WHITE: #FFF);
-padding: 24px 0;
+/* padding: 24px 0; */
+padding: 24px 0 24px; 
+border-bottom: 1px solid #e7e9fc;
 }
 
 /* header contrainer */
@@ -62,7 +65,7 @@ padding: 24px 0;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-right: 76px;
+  
   
 }
 

@@ -6,7 +6,9 @@ h1, h2, h3, h4, h5, h6, p, ul {
 margin: 0;
 padding: 0;
 }
-
+ img {
+  display: block;
+ }
 
 :root {
   --color: #2e2f42;
@@ -201,7 +203,6 @@ h1 {
   border-style: none;
   border-radius: 4px;
     cursor: pointer;
-    /* margin: 48px 635px 188px 636px; */
 margin-top: 48px;
     margin-bottom: auto;
     margin-right: auto;
@@ -219,14 +220,17 @@ button:focus {
   padding: 120px 0 120px;
 }
 
-.section-2-con {
-  display: inline-flex;
-align-items: flex-start;
-  gap: 24px;
- }
+.visually-hidden {
+  visibility: hidden;
+}
 
-/* .p-con:last-child {
-} */
+.section-2-list {
+ align-items: flex-start;
+  display: inline-flex;
+  position: relative;
+  gap: 40px;}
+
+
 .p-title {
   margin-bottom: 8px;
 }
@@ -252,7 +256,16 @@ p {
 
 /* third section */
 
-.section-title {
+/* .section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+} */
+
+h2 {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -261,14 +274,25 @@ p {
   color: #2e2f42;
 }
 
-/* h2 {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-} */
+.third-section {
+  padding: 120px 0 120px;
+}
+
+.third-title {
+margin-bottom: 72px;
+}
+
+.images-con  {
+  align-items: flex-start;
+  display: inline-flex;
+  position: relative;
+  gap: 24px;
+}
+
+.image-card-3 {
+  flex-basis: calc((100% - 48px) / 3;
+}
+
 
 /* fourth section */
 

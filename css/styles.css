@@ -36,11 +36,11 @@ body {
 .nav-con {
   display: inline-flex;
   /* gap: 76px; */
-  margin-right: 76px;
+  /* margin-right: 76px; */
 }
 
 .main-header {
-border-bottom: 1px solid var(--CORNFLOWER: #E7E9FC);
+/* border-bottom: 1px solid var(--CORNFLOWER: #E7E9FC); */
 background: var(--WHITE: #FFF);
 /* padding: 24px 0; */
 padding: 24px 0 24px; 
@@ -65,6 +65,7 @@ border-bottom: 1px solid #e7e9fc;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+    margin-right: 76px;
   
   
 }
@@ -129,7 +130,7 @@ flex-shrink: 0;
   line-height: 1.5;
   letter-spacing: 0.02em;
     color: #434455;
-    display: inline-flex;
+    display: flex;
 
 }
 

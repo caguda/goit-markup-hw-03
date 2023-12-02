@@ -206,7 +206,7 @@ margin-top: 48px;
     margin-bottom: auto;
     margin-right: auto;
     margin-left: auto;
-
+}
 
 button:hover,
 button:focus {
@@ -214,15 +214,26 @@ button:focus {
 }
 
 /* second section */
+
 .second-section {
-  padding: 120px 0 120px
+  padding: 120px 0 120px;
 }
 
-.section-2-con  {
-  display: flex;
-  position: relative;
+.section-2-con {
+  display: inline-flex;
+align-items: flex-start;
   gap: 24px;
+ }
+
+/* .p-con:last-child {
+} */
+.p-title {
+  margin-bottom: 8px;
 }
+
+ .p-con {
+  flex-basis: calc((100% - 72px) / 4;
+ }
 
 h3 {
   font-weight: 500;

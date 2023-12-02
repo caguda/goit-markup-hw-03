@@ -24,6 +24,10 @@ body {
   background-color: #ffffff;
 }
 
+header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .container {
   width: 1158px;
   margin: 0 auto;
@@ -31,7 +35,6 @@ body {
 
 .nav-con {
   display: inline-flex;
-
   gap: 76px;
 }
 
@@ -47,7 +50,7 @@ padding: 24px 0;
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  justify-content: space-between
+  justify-content: space-between;
 }
 
 
@@ -59,6 +62,7 @@ padding: 24px 0;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
   
 }
 
@@ -81,6 +85,10 @@ flex-shrink: 0;
   align-items: center;
   gap: 76px;
 }
+
+/* .nav-menu {
+  padding-top: 24px;
+} */
 
 .navtext {
   color: #2e2f42;
@@ -118,6 +126,7 @@ flex-shrink: 0;
   line-height: 1.5;
   letter-spacing: 0.02em;
     color: #434455;
+    display: inline-flex;
 
 }
 

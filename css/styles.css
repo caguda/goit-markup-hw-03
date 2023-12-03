@@ -224,7 +224,7 @@ button:focus {
   overflow: hidden;
 }
 
-.section-2-list {
+.section2-list {
   display: flex;
   gap: 24px;
 }

@@ -115,7 +115,7 @@ body {
 
 .contacts-con {
   align-items: flex-start;
-  display: inline-flex;
+  display: flex;
   position: relative;
   gap: 40px;
 }

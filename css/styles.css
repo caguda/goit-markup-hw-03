@@ -40,7 +40,7 @@ body {
 }
 
 .nav-con {
-  display: inline-flex;
+  display: flex;
   /* gap: 76px; */
   /* margin-right: 76px; */
 }
